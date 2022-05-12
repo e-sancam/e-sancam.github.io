@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atm</title>
+</head>
+<body style="text-align: center; margin-top: 30px;">
+    <div>
+        <input type="number" min="100" id="money">
+        <button onclick="functionAtm()">Submit</button>
+    </div>
+    <div id="result"></div>
+
+    <script>
+
+        function functionAtm() {
+            var money = document.getElementById('money').value;
+            var note = [2000, 500, 200, 100];
+            var a = 0; 
+            var noofnote = 0;
+            if (money % 100 === 0) {
+                    for (i=0; money > 0;i++){
+                        money = money - note[a];
+                        noofnote = noofnote+1; 
+                        if (money < note[a]){
+                            document.getElementById('money').innerHTML += '<strong>' + note[a]+ '</strong>' + 
+                            noofnote + '<br>';
+                            a = a+1
+                        }
+                    }
+            } else {
+               alert ('Please Put Number Multiple of 100');
+            }
+        }
+
+    </script>
+
+
+</body>
+</html>
