@@ -1,0 +1,45 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>Your bank</title>
+            <link rel="stylesheet" href="Arroz.css"> 
+</head>
+
+<body>    
+    
+    <form method ="post">
+   <div class="rawr"> 
+        Please Enter Your Pin Number: <input type="text" name="number" id="number" />
+            <input type="button" name="submit" id="submit" onclick="getaction()" value="Enter"/>
+                <p id="demo"> </p> </div>
+
+ <div class="frijoles" id="options12" style="display:none;">
+        <input type='radio' name='radio' onclick='myfunction(this.value)' value='1'/>Balance
+            <input type='radio' name='radio' onclick='myfunction(this.value)' value='2'/>Withdraw
+        <input type='radio' name='radio' onclick='myfunction(this.value)' value='3'/>Fastcash
+             <p id="demo1"></p>
+    </div>
+
+
+    <div class="ardillas" id="display" style="display:none;">
+        <label>Please Enter Your Withdraw Amount</label>
+            <input type="text" name="amount1" id="amount1" value=""/>
+                <input type="submit" name="submit1" value="submit" onclick="getamount()"/>
+    </div>
+
+    <div class="chunche" id="display1" style="display:none;">
+        <label>Please Select Your Fastcash Option</label>
+            <select id="myselect1">
+        <option value="500">500</option>
+            <option value ="1000">1000</option>
+                <option value ="2000">2000</option>   
+                       <option value ="3000">3000</option>
+                            <option value ="40000">4000</option>   
+        </select>
+        <input type="submit" name="submit2" value="submit" onclick="getamount1()">
+    </div>
+        </form>
+             </body>
+        
+        <script src="../02-Javascript/test/ATM.js"> </script>      
+</html>
