@@ -1,0 +1,116 @@
+/* CSS Document */
+
+body{
+    
+    font-family: arial, helvetica; 
+}
+
+.menu{
+    list-style: none;
+    padding:0;
+    background: #00000000; 
+    width: 900px;
+    max-width: 900px; 
+	border-radius: 20px;
+    transform: translate(160px , 2px);
+    
+}
+
+.menu li a{
+    
+    text-decoration: none; 
+    color: white; 
+    padding: 20px; 
+    display: block; 
+    font-size: large;
+    
+}
+
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.menu li a:hover {
+    background: #7777EF;
+    border-radius: 20px ;
+    
+}
+
+#mamut {
+    width: 99px;
+    height: 99px;
+    margin: 5.79% 3%;
+}
+
+#mamut:hover {
+    animation-name: rotate;
+    animation-duration: 0.9s;
+    animation-direction: reverse;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#Urano {
+    width: 99px;
+    height: 99px;
+    margin: -4% -11.10%;
+}
+
+#Urano:hover {
+    animation-name: ruru;
+    animation-duration: 0.9s;
+    animation-direction: reverse;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+}
+
+@keyframes ruru {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#Tierra{
+    width: 99px;
+    height: 99px;
+    margin: -14% 2.80%;
+}
+
+#Tierra:hover {
+    animation-name: Papas;
+    animation-duration: 0.9s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes Papas {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+iframe {
+    border: 1px solid black;
+    width: 350px;
+    height: 230px;
+    transform: translate(670px, 110px);
+}

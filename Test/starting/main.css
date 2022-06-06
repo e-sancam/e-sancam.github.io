@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-color: aliceblue;
+	border-radius: 30%
+}
+
+h1 {
+    
+    color: yellow;
+    background-color: blue;
+}
+
+h2 {
+    
+    color: white;
+    background-color: saddlebrown;
+}
+
+h3 {
+    
+    color: black;
+    background-color: pink;
+}
