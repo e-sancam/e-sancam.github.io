@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Quiz</title>
+</head>
+<body>
+	Q1.What is capital of India? <br>
+    <input type="radio" name="question1">Gandhinagar <br>
+    <input type="radio" name="question1" id="correct1">Delhi <br>
+    <input type="radio" name="question1">Surat <br>
+    
+    Q2.What is the capital of Japan? <br>
+    <input type="radio" name="question2">Kioto <br>
+    <input type="radio" name="question2">Phuket <br>
+    <input type="radio" name="question2" id="correct2" >Tokio <br>
+    
+    Q3.What is the capital of Israel? <br>
+    <input type="radio" name="question3" id="correct3">Jerusalem <br>
+    <input type="radio" name="question3">Lod <br>
+    <input type="radio" name="question3">Acre <br>
+    
+    Q4.What is the capital of Sweden? <br>
+    <input type="radio" name="question4" id="correct4" >Stockholm <br>
+    <input type="radio" name="question4">Sucke <br>
+    <input type="radio" name="question4">Malmö <br>
+    
+    Q5.What is the capital of Scotland? <br>
+    <input type="radio" name="question5">Glasgow <br>
+    <input type="radio" name="question5" id="correct5" >Edinburgh <br>
+    <input type="radio" name="question5">San Jose <br>
+    
+    Q6.What is the capital of Andorra? <br>
+    <input type="radio" name="question6">Montevideo <br>
+    <input type="radio" name="question6">Alajuela <br>
+    <input type="radio" name="question6" id="correct6" >Andorra la Vella <br>
+    
+    Q7.What is the capital of Nicaragua? <br>
+    <input type="radio" name="question7">La paz <br>
+    <input type="radio" name="question7" id="correct7">Managua <br>
+    <input type="radio" name="question7">Madrid <br>
+    
+    Q8.What is the capital of Sudan? <br>
+    <input type="radio" name="question8" id="correct8">Jartum <br>
+    <input type="radio" name="question8">Kasala <br>
+    <input type="radio" name="question8">Juba <br>
+    
+    Q9.What is the capital of Vietnam? <br>
+    <input type="radio" name="question9" id="correct9">Hanói <br>
+    <input type="radio" name="question9">Đà Nẵng <br>
+    <input type="radio" name="question9">Laos <br>
+    
+    Q10.What is the capital of Portugal? <br>
+    <input type="radio" name="question10">Madeira <br>
+    <input type="radio" name="question10" id="correct10">Lisbon <br>
+    <input type="radio" name="question10">Oporto <br>
+    
+    
+    <input type="submit" name="submit" value="submitQuiz" onClick="result()">
+    
+    <script type="text/javascript">
+    
+        function result() {
+            //body...
+            
+            
+            var score=0;
+            if (document.getElementById('correct1').checked) 
+            {
+                score++;
+            }
+               if (document.getElementById('correct2').checked) 
+            {
+                score++;
+            }
+               if (document.getElementById('correct3').checked) 
+            {
+                score++;
+            }
+               if (document.getElementById('correct4').checked) 
+            {
+                score++;
+            }
+               if (document.getElementById('correct5').checked) 
+            {
+                score++;
+            }
+               if (document.getElementById('correct6').checked) 
+            {
+                score++;
+            }
+               if (document.getElementById('correct7').checked) 
+            {
+                score++;
+            }
+               if (document.getElementById('correct8').checked) 
+            {
+                score++;
+            }
+               if (document.getElementById('correct9').checked) 
+            {
+                score++;
+            }
+               if (document.getElementById('correct10').checked) 
+            {
+                score++;
+            }
+            alert();
+            document.write("Your score is:"+score);
+            
+            
+        }
+    
+    
+    </script>
+    
+</body>
+</html>
