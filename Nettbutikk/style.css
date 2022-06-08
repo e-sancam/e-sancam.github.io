@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    
+    font-family: arial, helvetica; 
+    background-color: #e8e8e8;
+}
+
+.menu{
+    list-style: none;
+    padding:0;
+    background: #000000; 
+    width: 90%;
+    max-width: 1000px; 
+    margin: auto; 
+    
+}
+
+.menu li a{
+    
+    text-decoration: none; 
+    color: white; 
+    padding: 20px; 
+    display: block; 
+    
+}
+
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.menu li a:hover {
+    background: #3336CC;
+    
+    
+}
+    
+body {
+    
+    background-color: #131D30;
+}  
+    
+
+.container {
+     
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.container .card{
+    
+    width: 330px;
+    height: 430px;
+    border-radius: 5pc;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: white;
+}
+
+.container .card:hover{
+    
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    
+    width: 150px;
+    height: 220px;
+}
+
+.container .card h4{
+    
+    font-weight: 600;
+    color:black;
+}
+
+.container .card p{
+    
+    padding: 0 Irem;
+    font-size: 16px;
+    font-weight: 300;
+    color:black;
+}
+
+.container .card a{
+    
+    font-weight: 500;
+    text-decoration: none;
+    color: cadetblue;
+    
+}
+
+
+.container .bolas{
+    
+    width: 330px;
+    height: 430px;
+    border-radius: 5pc;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: white;
+}
+
+.container .bolas:hover{
+    
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .bolas img{
+    
+    width: 230px;
+    height: 220px;
+}
+
+.container .gato{
+    
+    width: 330px;
+    height: 430px;
+    border-radius: 5pc;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: white;
+}
+
+.container .gato:hover{
+    
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .gato img{
+    
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
